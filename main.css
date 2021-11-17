@@ -3,8 +3,9 @@
 body {
   background-color: rgba(210, 180, 140, 0.5);
   background-image: url("goofyScout.png");
-  background-position: center 105px;
+  background-position: center 0px;
   background-repeat: no-repeat;
+  background-size: 75vh;
   font-weight: 400;
   margin: 0;
   padding: 0px;
@@ -37,21 +38,21 @@ header {
   font-size: 20px;
 }
 #quote-box {
-  width: 750px;
+  width: 800px;
   padding: 20px 50px;
   margin: 0vh auto auto auto;
   border-radius: 20px;
   background: rgba(44, 130, 201, 0.7);
 }
+@media (max-width: 1000px) {
+  #quote-box {
+    width: 90vw;
+    margin-bottom: 20vh;
+  }
+}
+
 #buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-}
-
-@media (max-width: 800px) {
-  #quote-box {
-    width: 100vw;
-    margin-bottom: 20vh;
-  }
 }
