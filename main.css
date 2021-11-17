@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Schoolbell&display=swap");
+
+body {
+  background-color: rgba(210, 180, 140, 0.5);
+  background-image: url("goofyScout.png");
+  background-position: center 105px;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+}
+
+header {
+  display: block;
+  text-align: center;
+  margin: 15px auto 0 auto;
+  padding-bottom: 10px;
+}
+
+#text {
+  font-family: "Schoolbell", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+#quote-author {
+  font-family: "Schoolbell", cursive;
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+}
+#quote-box {
+  width: 750px;
+  padding: 20px 50px;
+  margin: 0vh auto auto auto;
+  border-radius: 20px;
+  background: rgba(44, 130, 201, 0.7);
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+  #quote-box {
+    width: 100vw;
+    margin-bottom: 20vh;
+  }
+}
